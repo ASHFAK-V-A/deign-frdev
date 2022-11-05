@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+}
+
+.main{
+width: 100%;
+height: 100vh;
+  background-color:hsl(217, 54%, 11%) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container{
+
+    width: 250px;
+    height: 439px;
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 14px;
+    
+    box-shadow: 1px 2px 8px 6px rgb(13, 18, 34);
+
+
+
+}
+
+img{
+    height: 224px;
+    padding: 0px 1px -2p;
+    margin: 12px 12px;
+    border-radius: 6px;
+}
+
+.heading {
+    margin: 4px 13px;
+    color: hsl(0, 0%, 100%) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.para{
+    margin: 14px 12px;
+    font-size: 14px;
+    color:rgb(192, 192, 192);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.CLK-ETH{
+    display: flex;
+    justify-content: space-evenly;
+}
+.CLK{
+    display: flex;
+}
+
+.ETH{
+display: flex;
+}
+
